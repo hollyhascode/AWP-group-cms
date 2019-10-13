@@ -1,4 +1,9 @@
 <?php include 'includes/head.php'; ?>
+<header>
+<?php
+include 'includes/header.php';
+?>
+
 	<main>
 		<form method="post" action="recipe-submit.php">
 		<label for="recName">Recipe Title</label><br />
